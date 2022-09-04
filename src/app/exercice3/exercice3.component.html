@@ -1,0 +1,4 @@
+<p *ngIf="statut">p1</p>
+<p *ngIf="!statut">p2</p>
+
+<button [(ngModel)]="statut" (click)="changeStatut()">change statut</button>
